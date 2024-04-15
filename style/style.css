@@ -1,0 +1,92 @@
+*{
+    font-family: Shabnam-FD ; 
+}
+@font-face {
+    font-family: "Shabnam-FD";
+    src: url(/fonts/Shabnam-FD.woff2) format(woff2);
+}
+body{
+    background-color:#fafafa;
+}
+/* .section_head{
+
+} */
+
+.container{
+    max-width: 749px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 56px;
+}
+#product{
+    margin-bottom: -21px;
+    margin-right: 30px; 
+}
+#id_a{
+    color: rgb(2, 119, 189);
+    font-size: 13px;
+    font-weight: 2px;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    right: 666px;
+}
+.flex_box{
+    
+    display: flex; 
+    gap: 25px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.div_bg_color{
+    background-color: #ffff;
+    margin-bottom: -150px;
+    padding-left: 0px;
+    padding-right: 16px;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+.information{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 8px;
+    line-height: 15px ;
+}
+.flex-box-price-precent{
+    display: flex; 
+    gap: 15px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+.percent{
+    background-color:rgb(178, 235, 242) ;
+    font-size: 10px;
+    color: rgb(2, 136, 209);
+    border: solid;
+    border-width:1px;
+    border-color: rgb(178, 235, 242);
+    margin-left: -2px;
+    border-radius: 4px;
+    margin-right: -2px;
+    width: 22.6px;
+}
+.price{
+    color: rgb(188, 170, 164);
+    font-size: 10px;
+    text-decoration: line-through;
+}
+.new-price{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.span{
+    font-size: 8px;
+    color: rgb(188, 170, 164);
+}
